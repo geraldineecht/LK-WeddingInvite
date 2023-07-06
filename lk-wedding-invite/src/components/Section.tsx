@@ -6,9 +6,30 @@ interface SectionProps {
 
 const Section: FC<SectionProps> = ({}) => {
   return(
-    <div className='h-[50vh] container mx-auto flex flex-col gap-10'>
-        <div className='w-1/2 flex mx-auto my-auto'>
-            <p className='text-3xl font-light italic text-center text-[#439088]'>“Sometimes the most ordinary things could be made extraordinary, simply by doing them with the right people."</p>
+   <div className='flex flex-col'>
+        <div className='bg-orange-200'>
+            <div className='grid md:grid-cols-2 sm:grid-cols-1 -gap-4'>
+                <div className='bg-black'>
+                    <img className='-rounded-md object-cover' src="/images/Koba1.jpg" />
+                </div>
+                <div className='-bg-green-100 flex flex-col p-10 my-auto -align-middle justify-center'>
+                    <p className='text-3xl text-center pb-4'> La Ceremonia</p>
+                    <p className='text-xl text-center pb-2'> Iglesia </p>
+                    <p className='text-base text-center'> Vista Nacional Km 262.5, 64985 Monterrey, N.L.</p>
+                </div>
+            </div>
+        </div>
+        <div className='bg-sky-50'>
+            <div className='grid md:grid-cols-2 sm:grid-cols-1 -gap-4'>
+                <div className='-bg-green-100 flex flex-col p-10 my-auto -align-middle justify-center'>
+                    <p className='text-3xl text-center pb-4'> El Evento</p>
+                    <p className='text-xl text-center pb-2'> Salon Kobá</p>
+                    <p className='text-base text-center'> Carr Nacional SN-S"MOTOCROSS, Sin Nombre de Col 52, Monterrey, N.L.</p>
+                </div>
+                <div className='-bg-black'>
+                    <img className='-rounded-md object-cover' src="/images/Koba1.jpg" />
+                </div>
+            </div> 
         </div>
     </div>
   )

@@ -13,7 +13,7 @@ const Cover: FC<CoverProps> = ({}) => {
             <div className='-bg-white container mx-auto px-8 my-14 flex flex-col gap-10'>
                 <p className={`text-2xl text-center text-[#A89F7D]`}>14 • 10 • 2023</p>
                 <div className='-bg-black flex justify-center'>
-                    <img className='object-cover h-48' src="/images/LK1.png" alt="" />
+                    <img className='object-cover md:h-48 sm:h-24' src="/images/LK1.png" alt="" />
                 </div>  
             </div>
         </div>
