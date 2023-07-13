@@ -7,10 +7,10 @@ interface SectionProps {
 const Section: FC<SectionProps> = ({}) => {
   return(
    <div className='flex flex-col'>
-        <div className='bg-orange-200'>
+        <div className='bg-[#fefce8]'>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 -gap-4'>
                 <div className='bg-black'>
-                    <img className='-rounded-md object-cover' src="/images/Koba1.jpg" />
+                    <img className='-rounded-md object-cover' src="/images/iglesia.jpeg" />
                 </div>
                 <div className='-bg-green-100 flex flex-col p-10 my-auto -align-middle justify-center'>
                     <p className='text-3xl text-center pb-4'> La Ceremonia</p>
@@ -19,7 +19,7 @@ const Section: FC<SectionProps> = ({}) => {
                 </div>
             </div>
         </div>
-        <div className='bg-sky-50'>
+        <div className='bg-[#f7fee7] -bg-sky-50'>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 -gap-4'>
                 <div className='-bg-green-100 flex flex-col p-10 my-auto -align-middle justify-center'>
                     <p className='text-3xl text-center pb-4'> El Evento</p>

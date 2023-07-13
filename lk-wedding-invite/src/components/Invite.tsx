@@ -9,9 +9,9 @@ interface InviteProps {
 
 const Invite: FC<InviteProps> = ({}) => {
   return(
-    <div className="relative w-full flex flex-col -bg-[#EFF3F4] bg-[#EFEFEF]">
+    <div className="relative w-full flex flex-col -bg-[#fefce8] -bg-[#EFEFEF]">
         <Navbar></Navbar>
-        <Counter></Counter>
+        {/* <Counter></Counter> */}
         <Section></Section>
         {/* <Section></Section>
         <Section></Section> */}
