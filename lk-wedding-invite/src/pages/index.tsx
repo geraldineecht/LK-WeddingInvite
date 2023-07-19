@@ -1,8 +1,6 @@
 import Cover from "@/components/Cover";
 import Invite from "@/components/Invite";
-import Navbar from "@/components/Navbar";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function Home() {
   return (
