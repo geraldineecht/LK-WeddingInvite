@@ -26,16 +26,16 @@ const Navbar: FC<NavbarProps> = ({ }) => {
 			<div className={ "lg:flex flex-grow items-center" + (navbarOpen ? " flex" : " hidden")}id="example-navbar-danger">
 				<ul className="flex flex-col lg:flex-row list-none lg:mx-auto">
 					<li className="nav-item">
-						<Link href='/' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Home</Link>
+						<Link href='/' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" onClick={() => setNavbarOpen(!navbarOpen)}>Home</Link>
 					</li>
 					<li className="nav-item">
-						<Link href='/ceremoniaPagina' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Ceremonia</Link>
+						<Link href='/ceremoniaPagina' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" onClick={() => setNavbarOpen(!navbarOpen)}>Ceremonia</Link>
 					</li>
 					<li className="nav-item">
-						<Link href='/eventoPagina' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Recepción</Link>
+						<Link href='/eventoPagina' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" onClick={() => setNavbarOpen(!navbarOpen)}>Recepción</Link>
 					</li>
 					<li className="nav-item">
-						<Link href='FLAYER DE BODAS 2.pdf' target="_blank" className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Transporte y Hotel</Link>
+						<Link href='FLAYER DE BODAS 2.pdf' target="_blank" className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" onClick={() => setNavbarOpen(!navbarOpen)}>Transporte y Hotel</Link>
 					</li>
 				</ul>
 			</div>
