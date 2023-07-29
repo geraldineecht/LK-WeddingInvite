@@ -1,9 +1,7 @@
-import Cover from "@/components/Cover";
-import Invite from "@/components/Invite";
-import Navbar from "@/components/Navbar";
+import Evento from "@/components/Evento";
 import Head from "next/head";
 
-export default function Home() {
+export default function EventoPagina() {
   return (
     <>
       <Head>
@@ -13,7 +11,9 @@ export default function Home() {
       </Head>
       <main className="flex -min-h-screen flex-col bg-slate-50 antialiased">
         <div className="flex -h-screen w-full items-start flex-col -items-center -justify-center">
-          <Cover></Cover>
+            <div className="relative w-full flex flex-col -bg-[#fefce8] -bg-[#EFEFEF]">
+                <Evento></Evento>
+            </div>
         </div>
       </main>
     </>

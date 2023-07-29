@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FC } from 'react'
 
@@ -25,16 +26,16 @@ const Navbar: FC<NavbarProps> = ({ }) => {
 			<div className={ "lg:flex flex-grow items-center" + (navbarOpen ? " flex" : " hidden")}id="example-navbar-danger">
 				<ul className="flex flex-col lg:flex-row list-none lg:mx-auto">
 					<li className="nav-item">
-						<a className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" href="#ceremonia">Ceremonia</a>
+						<Link href='/' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Home</Link>
 					</li>
 					<li className="nav-item">
-						<a className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" href="#recepcion">Recepción</a>
+						<Link href='/ceremoniaPagina' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Ceremonia</Link>
 					</li>
 					<li className="nav-item">
-						<a className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" href="#transporteYHotel">Transporte y Hotel</a>
+						<Link href='/eventoPagina' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Recepción</Link>
 					</li>
 					<li className="nav-item">
-						<a className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" href="#rspv">RSPV</a>
+						<Link href='FLAYER DE BODAS 2.pdf' target="_blank" className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" >Transporte y Hotel</Link>
 					</li>
 				</ul>
 			</div>
