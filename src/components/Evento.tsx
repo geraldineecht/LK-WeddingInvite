@@ -13,8 +13,9 @@ const Evento: FC<EventoProps> = ({}) => {
                     <img src="/images/cheers.png" className='h-20 w-20 mx-auto' />
                     
                     <div className='mt-6'>
-                        <p className='text-xl text-center pb-2'> Celebra con nosotros en: </p>
-                        <p className='text-xl text-center pb-2'> Kobá Jardín</p>
+                        <p className='text-xl text-center pb-2 secondary-font'> Celebra con nosotros en: </p>
+                        <p className='text-center pb-2 main-font text-4xl'> Kobá Jardín</p>
+                        <p className='text-xl text-center pb-2'> 20:00 </p>
                         <p className='text-base text-center underline text-[#6E7742]'> <a href="https://shorturl.at/uzAJW" target="_blank"> Carr Nacional, Sin Nombre de Col 52, Monterrey, N.L</a> </p>
                     </div>
 
