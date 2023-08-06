@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <>
-      <div className="relative w-full flex flex-col ">
+      <div className="absolute z-40 w-full flex flex-col bg-transparent">
         <Navbar></Navbar>
       </div>
       <Component {...pageProps} />
