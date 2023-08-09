@@ -9,7 +9,7 @@ interface NavbarProps {
 const Navbar: FC<NavbarProps> = ({ }) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-	<nav className="sticky top-0  flex flex-wrap items-center justify-between px-2 py-4 bg-[#6E7742] bg-transparent">
+	<nav className="sticky top-0  flex flex-wrap items-center justify-between px-2 py-4 bg-[#6E7742] bg-transparent -bg-slate-200/50">
 		<div className="container px-4 mx-auto flex flex-wrap items-center justify-center">
 			<div className="w-full relative flex justify-end lg:w-auto lg:static lg:block lg:justify-start">
 				<button

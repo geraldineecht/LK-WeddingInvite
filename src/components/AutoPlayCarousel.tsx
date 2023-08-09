@@ -24,16 +24,19 @@ const AutoPlayCarousel: FC<AutoPlayCarouselProps> = ({}) => {
       <div>
         <Slider ref={sliderRef} {...settings}>
           <div>
-            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8240_2.png')] md:bg-[url('/caroussel_images/IMG_8240.jpg')] bg-cover"></div>
+            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8240_2.png')] md:bg-[url('/caroussel_images/IMG_8036.jpg')] bg-cover"></div>
           </div>
           <div>
-          <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8247.jpg')] bg-cover"></div>
+          <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8060.jpg')] bg-cover"></div>
+          </div>
+          {/* <div>
+            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8136.jpg')] bg-cover bg-center"></div>
+          </div> */}
+          <div>
+            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8279.jpg')] bg-cover bg-center"></div>
           </div>
           <div>
-            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8628.jpg')] bg-cover bg-center"></div>
-          </div>
-          <div>
-            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8698.jpg')] bg-cover bg-center"></div>
+            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8316.jpg')] bg-cover bg-center"></div>
           </div>
 
         </Slider>
