@@ -9,9 +9,6 @@ const Ceremonia: FC<CeremoniaProps> = ({}) => {
    <div className='flex flex-col'>
         <div className='bg-[#F9FBEB] md:h-[100vh]'>
             <div className='grid md:grid-cols-2 sm:grid-cols-1 -gap-4'>
-                <div className='bg-black -relative -w-1/2 -h-full'>
-                    <img className='-w-screen md:h-[100vh] -object-fill' src="/images/iglesia.jpeg" />
-                </div>
                 <div className='-bg-green-100 flex flex-col p-10 my-auto -align-middle justify-center'>
                     {/* <img src="/images/church.png" className='h-20 w-20 mx-auto' /> */}
                     
@@ -26,6 +23,9 @@ const Ceremonia: FC<CeremoniaProps> = ({}) => {
 
                         <p className='text-center secondary-font subpixel-antialiased underline'> <a href="https://shorturl.at/bcARZ" target="_blank"> ANTIGUO CAMINO A VILLA DE SANTIAGO KM. 265, <br/> COL. EL URO, 64986 MONTERREY, N.L.</a></p>
                     </div>
+                </div>
+                <div className='bg-black -relative -w-1/2 -h-full'>
+                    <img className='-w-screen md:h-[100vh] -object-fill' src="/images/iglesia.jpeg" />
                 </div>
             </div>
         </div>

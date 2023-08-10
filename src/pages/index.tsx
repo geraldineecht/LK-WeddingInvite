@@ -14,6 +14,7 @@ export default function Home() {
       <main className="flex -min-h-screen flex-col bg-slate-50 antialiased">
         <div className="flex -h-screen w-full items-start flex-col -items-center -justify-center">
           <Cover></Cover>
+          <Invite></Invite>
         </div>
       </main>
     </>

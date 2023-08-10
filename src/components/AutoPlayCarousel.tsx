@@ -24,7 +24,7 @@ const AutoPlayCarousel: FC<AutoPlayCarouselProps> = ({}) => {
       <div>
         <Slider ref={sliderRef} {...settings}>
           <div>
-            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8240_2.png')] md:bg-[url('/caroussel_images/IMG_8036.jpg')] bg-cover"></div>
+            <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8036.jpg')] bg-cover bg-center"></div>
           </div>
           <div>
           <div className="relative h-screen w-full flex flex-col bg-[url('/caroussel_images/IMG_8060.jpg')] bg-cover"></div>
