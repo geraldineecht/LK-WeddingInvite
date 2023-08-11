@@ -33,7 +33,7 @@ const Evento: FC<EventoProps> = ({}) => {
 							<div className='mt-6 flex flex-col gap-3'>
 								<p className='text-center secondary-font text-xl subpixel-antialiased'> CELEBRA CON NOSOTROS EN </p>
 
-								<img className='object-scale-down md:h-28 sm:h-16' src="/images/IMG_5724.png" alt="" />
+								<p className='titles-font text-4xl md:text-5xl text-center mt-4'> JARDÍN KOBÁ</p>
 
 								<p className='text-center secondary-font text-xl subpixel-antialiased'> A LAS </p>
 

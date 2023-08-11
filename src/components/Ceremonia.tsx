@@ -15,7 +15,7 @@ const Ceremonia: FC<CeremoniaProps> = ({}) => {
                     <div className='mt-6 flex flex-col gap-3'>
                         <p className='text-center secondary-font text-xl subpixel-antialiased'> ACOMPAÑANOS A UNIR NUESTRO MATRIMONIO ANTE <br/> DIOS EN </p>
 
-                        <img className='object-scale-down md:h-28 sm:h-16' src="/images/IMG_5722.png" alt="" />
+                        <p className='titles-font text-4xl md:text-5xl text-center mt-4'> SAN JOSÉ DEL URO</p>
 
                         <p className='text-center secondary-font text-xl subpixel-antialiased'> A LAS </p>
 
