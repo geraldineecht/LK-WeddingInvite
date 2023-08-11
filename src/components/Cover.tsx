@@ -1,7 +1,4 @@
 import { FC } from 'react'
-import Image from "next/image";
-import { greenColor, grayColor } from '@/utils';
-import Counter from './Counter';
 import AutoPlayCarousel from './AutoPlayCarousel';
 
 interface CoverProps {
