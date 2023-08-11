@@ -25,7 +25,7 @@ const Ceremonia: FC<CeremoniaProps> = ({}) => {
                     </div>
                 </div>
                 <div className='bg-black -relative -w-1/2 -h-full'>
-                    <img className='-w-screen md:h-[100vh] -object-fill' src="/images/iglesia.jpeg" />
+                    <img className='-w-screen md:h-[100vh] object-cover' src="/images/iglesia.jpeg" />
                 </div>
             </div>
         </div>

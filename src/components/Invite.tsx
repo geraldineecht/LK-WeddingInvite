@@ -1,9 +1,7 @@
 import { FC } from 'react'
-import Navbar from './Navbar'
 import Ceremonia from './Ceremonia'
-import Counter from './Counter'
 import Evento from './Evento'
-import Info from './Info'
+import Footer from './Footer'
 
 interface InviteProps {
   
@@ -14,6 +12,7 @@ const Invite: FC<InviteProps> = ({}) => {
     <div className="relative w-full flex flex-col -bg-[#fefce8] -bg-[#EFEFEF]">
         <Ceremonia></Ceremonia>
         <Evento></Evento>
+        <Footer></Footer>
     </div>
   )
 }

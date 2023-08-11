@@ -11,7 +11,7 @@ const Navbar: FC<NavbarProps> = ({ }) => {
   return (
 	<nav className={"sticky top-0  flex flex-wrap items-center justify-between px-2 py-4" + (navbarOpen ? " flex bg-[#97A699]" : " -bg-[#97A699]/50")}>
 		<div className="container px-4 mx-auto flex flex-wrap items-center justify-center">
-			<div className={ "lg:flex flex-grow items-center" + (navbarOpen ? " flex -bg-[#97A699]" : " hidden")}id="example-navbar-danger">
+			<div className={ "lg:flex flex-grow items-center" + (navbarOpen ? " flex -bg-[#97A699]" : "hidden")}id="example-navbar-danger">
 				<ul className="flex flex-col lg:flex-row list-none lg:mx-auto">
 					<li className="nav-item">
 						<Link href='/' className="px-3 py-2 flex items-center text-base leading-snug text-white hover:opacity-75" onClick={() => setNavbarOpen(false)}>Home</Link>

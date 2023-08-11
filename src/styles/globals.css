@@ -22,10 +22,16 @@
 	font-family: 'Cormorant Garamond', serif;
 	font-weight: 500;
 	letter-spacing: .05rem;
-	color: #AB1674;
-	color: #ED29A4;
 	color: #6E7742;
 }
+
+.secondary-font-2{
+	font-family: 'Cormorant Garamond', serif;
+	/* font-weight: 500; */
+	letter-spacing: .05rem;
+}
+
+
 
 @layer base {
 	html {
