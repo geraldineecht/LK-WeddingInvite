@@ -43,7 +43,7 @@ const Evento: FC<EventoProps> = ({}) => {
 							</div>
 
 							<div className='mx-auto mt-6'>
-								<Link href='https://api.whatsapp.com/send?phone=+528116578203&text=Hola,%20mi%20nombre%20es%20______,%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Lucia%20y%20Kevin%20el%20pr%C3%B3ximo%2014%20de%20Octubre%20del%202023.%20%0aNumero%20de%20Invitados:%20______'
+								<Link href='https://api.whatsapp.com/send?phone=+528136269929&text=Hola,%20mi%20nombre%20es%20______,%20confirmo%20mi%20asistencia%20a%20la%20boda%20de%20Lucia%20y%20Kevin%20el%20pr%C3%B3ximo%2014%20de%20Octubre%20del%202023.%20%0aNumero%20de%20Invitados:%20______'
 								 className="w-60 text-[#6E7742] border-2 border-[#6E7742] -bg-blue-700 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2"> Confírmanos tu Asistencia</Link>
 							</div>
 
